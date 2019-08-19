@@ -1,0 +1,19 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.2;
+  font-size: 20px;
+  color: gray;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:hover {
+  color:black;
+  background-color: aqua;
+}
+a:visited {
+  color: brown;
+  background-color: aqua;
+}
