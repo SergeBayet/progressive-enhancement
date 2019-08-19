@@ -1,8 +1,22 @@
+body {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(245, 186, 186));
+  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(245, 186, 186));
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+
+}
+
 p {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.2;
   font-size: 20px;
-  color: gray;
+  color: DarkRed;
 }
 
 a {
@@ -16,4 +30,17 @@ a:hover {
 a:visited {
   color: brown;
   background-color: aqua;
+}
+blockquote {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-left: 3px solid DarkRed;
+  padding-left: 30px;
+  background-color: rgb(238, 227, 227);
+  margin-top:80px;
+  margin-bottom:80px;
+}
+blockquote p {
+  font-size:160%;
 }
