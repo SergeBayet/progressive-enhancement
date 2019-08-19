@@ -1,0 +1,61 @@
+pre {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+	box-shadow:20px 20px 10px grey;
+	margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  background: -webkit-linear-gradient(90deg, rgb(143, 145, 146), rgb(231, 221, 221));
+  background: linear-gradient(90deg, rgb(143, 145, 146), rgb(231, 221, 221));
+	font-family: Verdana,sans-serif;
+	line-height: 24px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow:20px 20px 10px grey;
+  margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+p {
+	text-indent:8%;
+}
+h1, h2 {
+  font-variant: small-caps;
+}
+.avatar {
+	display:inline;
+	vertical-align: middle;
+  width: 50px;
+  height: 50px;
+	border-radius: 50%;
+	box-shadow:none;
+}
+.author {
+	text-align:right;
+}
+blockquote {
+	padding : 5px;
+	border: 3px dotted black;
+}
