@@ -12,7 +12,7 @@ body {
 
 }
 
-p {
+p, ul, li {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.2;
   font-size: 20px;
@@ -35,7 +35,7 @@ blockquote {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  border-left: 3px solid DarkRed;
+  font-style: italic;
   padding-left: 30px;
   background-color: rgb(238, 227, 227);
   margin-top:80px;
@@ -43,4 +43,57 @@ blockquote {
 }
 blockquote p {
   font-size:160%;
+}
+
+.villageois {
+  border-left: 3px solid DarkRed;
+}
+
+.fermier {
+  border-left: 3px solid rgb(18, 26, 95);
+}
+
+header p {
+  background-color:yellow;
+}
+
+.bien, .mal {
+  text-transform: uppercase;
+}
+.bien {
+  color: red;
+}
+.mal {
+  color: green;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: grey;
+}
+li:nth-child(1) {
+  background-image: url('bien.png');
+  background-position: right;
+  padding-right: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+li:nth-child(2) {
+  background-image: url('mal.png');
+  background-position: right;
+  padding-right: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+li:nth-child(3) {
+  background-image: url('chat.png');
+  background-position: right;
+  padding-right: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+p:first-of-type {
+  font-weight: bold;
 }
