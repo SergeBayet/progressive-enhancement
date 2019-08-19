@@ -9,16 +9,18 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
-
+  font-family: 'Livvic', sans-serif;
 }
 
 p, ul, li {
-  font-family: "Times New Roman", Times, serif;
+  
   line-height: 1.2;
   font-size: 20px;
   color: DarkRed;
 }
-
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
 a {
   font-weight: bold;
 }
@@ -96,4 +98,13 @@ li:nth-child(3) {
 
 p:first-of-type {
   font-weight: bold;
+}
+img {
+  float:right;
+  margin: 15px;
+}
+p::after {
+  content: "";
+  clear: both;
+  display: table;
 }
